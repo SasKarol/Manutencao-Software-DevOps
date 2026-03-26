@@ -6,3 +6,8 @@ Este projeto foi atualizado seguindo práticas de DevOps:
 - Integração via Pull Request
 
 # Manutenção de Software e DevOps (Atualizado)
+
+
+
+
+Foi implementado um pipeline de Integração Contínua utilizando GitHub Actions com execução de testes automatizados reais por meio da ferramenta Pytest. O pipeline realiza o setup do ambiente, instalação de dependências e validação do código, garantindo maior confiabilidade e qualidade no processo de desenvolvimento.
