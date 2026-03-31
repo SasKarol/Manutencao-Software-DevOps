@@ -1,0 +1,16 @@
+{
+  "name": "aula-5-devops",
+  "version": "1.0.0",
+  "description": "Este projeto foi atualizado seguindo práticas de DevOps:\r - Uso de branch para desenvolvimento\r - Commit versionado\r - Integração via Pull Request",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
