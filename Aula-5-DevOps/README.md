@@ -10,6 +10,12 @@ Este projeto foi atualizado seguindo práticas de DevOps:
 - Implementação de fluxo com branches
 - Simulação de CI/CD
 
-#Teste Real
-Foi implementado um pipeline de Integração Contínua utilizando GitHub Actions com execução de testes automatizados reais por meio da ferramenta Pytest. O pipeline realiza o setup do ambiente, instalação de dependências e validação do código, garantindo maior confiabilidade e qualidade no processo de desenvolvimento.
+## Demonstração de TDD
+
+Foi aplicado o ciclo de TDD:
+
+1. Criado teste de subtração
+2. Teste executado inicialmente com falha
+3. Implementação da função
+4. Teste passou com sucesso
 
