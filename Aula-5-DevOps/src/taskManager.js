@@ -7,11 +7,14 @@ function removeTask(tasks, taskId) {
 }
 
 function filterTasks(tasks, status) {
-  if (status === 'completed') {
-    return tasks.filter(task => task.completed);
+  switch (status) {
+    case 'completed':
+      return tasks.filter(task => task.completed);
+    case 'pending':
+      return tasks.filter(task => !task.completed);
+    default:
+      return [...tasks];
   }
-
-  return tasks;
 }
 
 module.exports = {
